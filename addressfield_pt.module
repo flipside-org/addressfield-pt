@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ *  Defines plugin for Portuguese address.
+ * @author Daniel Silva
+ */
+
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function addressfield_pt_ctools_plugin_directory($module, $plugin) {
+  if ($module == 'addressfield') {
+    return 'plugins/' . $plugin;
+  }
+}
